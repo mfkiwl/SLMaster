@@ -20,13 +20,15 @@
 
 该软件相关博客可见公众号专栏：[从0到1搭建一套属于你自己的高精度实时结构光3D相机](https://mp.weixin.qq.com/s/E8K3892eNVJfgpMUHtf9Lw)，欢迎关注公众号。
 
-你的**Star**⭐和关注是博主源源不断的动力。有任何问题和**bug**反馈请提**Issue**。
+您的**Star**⭐和关注是博主源源不断的动力。有任何问题和**bug**反馈请提**Issue**。
 
 **想先体验该软件？**
 
 请在`Release`页面下载`exe`安装文件，但请注意`exe`安装方式不支持`GPU`加速。
 
 更多使用与开发文档请查阅[Wiki Document](https://github.com/Practice3DVision/SLMaster/wiki)。
+
+付费咨询/项目合作请加QQ：`1369215984`。
 
 ## 依赖 🍁
 **SLMaster**依赖的库包含如下几点：
@@ -42,7 +44,7 @@
 > 如果电脑没有`NVIDIA GPU`，软件仍然能够使用CPU加速有效运行，此时可无需`opencv_contribute`依赖。
 
 ## 编译 🚀
-当你获取到本库代码之后，首先检查上述依赖，若不满足依赖条件，可通过点击上述依赖库跳转至对应的库，随后下载其代码并进行编译。以上面库皆没有编译安装的环境为例，编译顺序如下：
+当您获取到本库代码之后，首先检查上述依赖，若不满足依赖条件，可通过点击上述依赖库跳转至对应的库，随后下载其代码并进行编译。以上面库皆没有编译安装的环境为例，编译顺序如下：
 1. 下载[MVSDK](https://www.irayple.com/cn/serviceSupport/downloadCenter/18?p=17)并进行安装。
 2. 下载[OpenCV](https://github.com/opencv/opencv.git)和[opencv_contribute](https://github.com/opencv/opencv_contrib.git)并进行编译（若`WITH_CUDA`未勾选请勾选上）
 3. 下载[Qt5.15](https://doc.qt.io/qt-5/index.html)并选择`MSVC`编译套件安装
@@ -56,7 +58,7 @@
 > 每当编译好一个库都应当在系统环境变量中加入。例如，编译完成OpenCV后，设置好系统环境变量OpenCV_DIR路径。
 
 
-你可以打开`SLMaster`中的`BUILD_TEST`和`BUILD_PERF`选项，这将编译**google_test**和**google_benchmark**中的测试用例，这些测试用例同样是一份非常不错的示例代码。
+您可以打开`SLMaster`中的`BUILD_TEST`和`BUILD_PERF`选项，这将编译**google_test**和**google_benchmark**中的测试用例，这些测试用例同样是一份非常不错的示例代码。
 ## 使用 🌈
 
 离线使用情况下，可通过进入`扫描模式->离线扫描模式->选择左相机文件夹->选择右相机文件夹->开始扫描->单次扫描`测试离线重建效果，软件提供一组离线数据集位于`安装目录/data/`下。
