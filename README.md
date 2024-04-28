@@ -34,7 +34,7 @@
 **SLMaster**依赖的库包含如下几点：
 - [FluentUI](https://github.com/Practice3DVision/SLMaster/tree/master/FluentUI)`V1.5.6`（项目内包含）
 - [QuickQanava](https://github.com/cneben/QuickQanava/tree/2.4.1)`V2.4.1`（项目内包含）
-- [MVSDK](https://www.irayple.com/cn/serviceSupport/downloadCenter/18?p=17)`V2.3.5`（项目内包含）
+- [MVViewer](https://www.irayple.com/cn/serviceSupport/downloadCenter/18?p=17)`V2.3.5`
 - [opencv_contribute](https://github.com/opencv/opencv_contrib.git)`V4.8.0`
 - [OpenCV](https://github.com/opencv/opencv.git)`V4.8.0`
 - [VTK](https://github.com/Kitware/VTK/tree/v9.2.0)`V9.2.0`
@@ -45,7 +45,7 @@
 
 ## 编译 🚀
 当您获取到本库代码之后，首先检查上述依赖，若不满足依赖条件，可通过点击上述依赖库跳转至对应的库，随后下载其代码并进行编译。以上面库皆没有编译安装的环境为例，编译顺序如下：
-1. 下载[MVSDK](https://www.irayple.com/cn/serviceSupport/downloadCenter/18?p=17)并进行安装。
+1. 下载[MVViewer](https://www.irayple.com/cn/serviceSupport/downloadCenter/18?p=17)并进行安装。
 2. 下载[OpenCV](https://github.com/opencv/opencv.git)和[opencv_contribute](https://github.com/opencv/opencv_contrib.git)并进行编译（若`WITH_CUDA`未勾选请勾选上）
 3. 下载[Qt5.15](https://doc.qt.io/qt-5/index.html)并选择`MSVC`编译套件安装
 4. 下载[VTK](https://github.com/Kitware/VTK/tree/v9.2.0)并令`VTK_GROUP_ENABLE_Qt=YES`进行编译

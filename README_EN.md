@@ -32,7 +32,7 @@ For more usage and development documentation, please refer to [Wiki Document](ht
 The libraries that **SLMaster** depends on include the following points:
 - [FluentUI](https://github.com/Practice3DVision/SLMaster/tree/master/FluentUI)`V1.5.6` (The project includes)
 - [QuickQanava](https://github.com/cneben/QuickQanava/tree/2.4.1)`V2.4.1` (The project includes)
-- [MVSDK](https://www.irayple.com/cn/serviceSupport/downloadCenter/18?p=17)`V2.3.5` (The project includes)
+- [MVViewer](https://www.irayple.com/cn/serviceSupport/downloadCenter/18?p=17)`V2.3.5`
 - [opencv_contribute](https://github.com/opencv/opencv_contrib.git)`V4.8.0`
 - [OpenCV](https://github.com/opencv/opencv.git)`V4.8.0`
 - [VTK](https://github.com/Kitware/VTK/tree/v9.2.0)`V9.2.0`
@@ -44,7 +44,7 @@ The libraries that **SLMaster** depends on include the following points:
 ## Build 🚀
 After obtaining the code from this library, first check the above dependencies. If the dependency conditions are not met, you can click on the above dependency library to jump to the corresponding library, then download its code and compile it. Taking the environment where none of the above libraries have been compiled and installed as an example, the compilation order is as follows:
 
-1. Download [MVSDK](https://www.irayple.com/cn/serviceSupport/downloadCenter/18?p=17) and install it。
+1. Download [MVViewer](https://www.irayple.com/cn/serviceSupport/downloadCenter/18?p=17) and install it。
 2. Download [OpenCV](https://github.com/opencv/opencv.git)和[opencv_contribute](https://github.com/opencv/opencv_contrib.git) and compile it (if `WITH-CUDA` is not checked, please check it)
 3. Download [Qt5.15](https://doc.qt.io/qt-5/index.html) and select the `MSVC` compilation kit installation
 4. Download [VTK](https://github.com/Kitware/VTK/tree/v9.2.0) and compile with `VTK_GROUP-ENABLE_Qt=YES`
